@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=PT+Serif:ital,wght@1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(141, 243, 195);
+    background-image: url("./op.jpg");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: right; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 400px;
+    margin-top:auto;
+
+}
+h1{
+    margin-left:250px;
+    text-align:justify;
+    font-weight: bold;
+    font-size:14rem;
+    margin-top:50rem;
+}
+.container{
+    display: flex;
+}
+.countdown-el{
+    margin-left:300px;
+    text-align:center;
+}
+.countdown-el span{
+    font-weight: normal;
+    font-size: 4rem;
+
+}
+.big-text{
+    margin-left:500px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13rem;
+    line-height:2;
+    margin: 0 3rem;
+}
