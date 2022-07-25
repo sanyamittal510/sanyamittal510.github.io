@@ -1,3 +1,4 @@
+document.body.style.zoom="25%"
 const newyear= "1 January 2023";
 function formattime(time){
     if (time<10){
